@@ -1,6 +1,6 @@
 ## [Loplop](https://duckduckgo.com/?q=!img+loplop) is longer [Oplop](http://code.google.com/p/oplop/)
 
-This is a variation on the CLI implementation of oplop.
+This is a variation on the CLI (python) and Android (SL4A) implementations of oplop.
 
 It doesn't cover any other [implementations](https://code.google.com/p/oplop/wiki/Implementations) of oplop, doesn't have tests or setup.py, etc. Just the minimum necessary in order to scratch a specific itch.
 
@@ -18,7 +18,7 @@ Loplop is *not* backward compatible with oplop (but it *can* be told to work in 
  * Maximum password length is 22 (the effective length of a 16-byte md5 hash encoded as base64). You can specify a larger `n`, but `23*skidoo` and `666*skidoo` would be equivalent to `22*skidoo`. 
  * If you need to use an ambiguous label (e.g. `*spangled` or `3*cheers`), you'll need to explicitly prefix it with `16*`.
 
-Misc additions:
+Misc additions to the CLI implementation:
 
  * The `-p` command line argument pauses and waits for a carriage-return after execution. Used by `glop` (see below).
  * `glop` (i.e. "gnome loplop") opens a gnome-terminal running `loplop -p` (plus any other args you throw at it).
@@ -26,11 +26,13 @@ Misc additions:
    If you *don't* hit enter, the window will be closed next time you run `glop` (so that you don't end up
    with many "orphan" `glop` windows to close).
 
-### "Installation"
+### Installation
 
-Linux: just symlink `glop` and/or `oplop` to a folder in your path (e.g. `~/bin`).
+CLI on Linux: just symlink `glop` and/or `oplop` to a folder in your path (e.g. `~/bin`).
 
-Other platforms: *you* tell *me* :)
+CLI on other platforms: *you* tell *me* :)
+
+SL4a on Android: See the [README](android/README.md).
 
 ## Original Oplop README
 
