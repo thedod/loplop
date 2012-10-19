@@ -32,7 +32,7 @@ CLI on Linux: just symlink `glop` and/or `oplop` to a folder in your path (e.g. 
 
 CLI on other platforms: *you* tell *me* :)
 
-SL4a on Android: See the [README](android/README.md).
+SL4a on Android: See the [README](https://github.com/thedod/loplop/tree/master/android#readme).
 
 ## Original Oplop README
 
