@@ -1,0 +1,5 @@
+#!/bin/sh
+cd $(dirname $(readlink -fn $0))
+export LIVEONE="`pgrep -f loplop`"
+[ -z "$LIVEONE" ] || kill $LIVEONE
+gnome-terminal --window-with-profile=mega-nerd -t "loplop" -x "$(pwd)/loplop" -p $*
