@@ -28,7 +28,7 @@ Misc additions to the CLI implementation:
 
 ### Installation
 
-CLI on Linux: just symlink `glop` and/or `oplop` to a folder in your path (e.g. `~/bin`).
+CLI on Linux: just symlink `glop` and/or `loplop` to a folder in your path (e.g. `~/bin`).
 
 CLI on other platforms: *you* tell *me* :)
 
