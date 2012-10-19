@@ -23,12 +23,12 @@ Misc additions:
  * The `-p` command line argument pauses and waits for a carriage-return after execution. Used by `glop` (see below).
  * `glop` (i.e. "gnome loplop") opens a gnome-terminal running `loplop -p` (plus any other args you throw at it).
    The password stays in the clipboad until you hit enter (which closes the window and clears the clipboard).
-   If you *Don't* hit enter, the window will be closed next time you run `glop` (so that you don't end up
-   with many "orphan" `glop` windows to close.
+   If you *don't* hit enter, the window will be closed next time you run `glop` (so that you don't end up
+   with many "orphan" `glop` windows to close).
 
 ### "Installation"
 
-Linux: Just symlink `glop` and/or `oplop` to a folder in your path (e.g. `~/bin`).
+Linux: just symlink `glop` and/or `oplop` to a folder in your path (e.g. `~/bin`).
 
 Other platforms: *you* tell *me* :)
 
