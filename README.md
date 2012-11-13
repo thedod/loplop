@@ -1,6 +1,9 @@
 ## [Loplop](https://duckduckgo.com/?q=!img+loplop) is longer [Oplop](http://code.google.com/p/oplop/)
 
-This is a variation on the CLI (python) and Android (SL4A) implementations of oplop.
+This is a variation on Oplop, covering the following implementation
+* CLI (Python)
+* Android (PY4A)
+* Javascript (contributed by [israellevin](https://github.com/israellevin))
 
 It doesn't cover any other [implementations](https://code.google.com/p/oplop/wiki/Implementations) of oplop, doesn't have tests or setup.py, etc. Just the minimum necessary in order to scratch a specific itch.
 
@@ -34,29 +37,10 @@ CLI on other platforms: *you* tell *me* :)
 
 SL4A on Android: See the [README](https://github.com/thedod/loplop/tree/master/android#readme).
 
-## Original Oplop README
+Javascript: Just run `index.html` in a browser ( preferably on a computer disconnected from the internet ;) ).
 
-### CLI (Command Line Interface) and reference implementation of Oplop
-
-Using a single master password and various nicknames, one can create an
-infinite number of unique account passwords. These unique account passwords are
-commonly called password hashes, domain-specific passwords, or per-site
-passwords.
-
-The CLI implementation of Oplop is only one of many implementations. See the
-[project home page](http://code.google.com/p/oplop/) for the complete list
-of available implementations of Oplop.
-
-
-#### General
+## Original Oplop docs
 
 Project home page: http://code.google.com/p/oplop/
 
 What Oplop is: http://code.google.com/p/oplop/wiki/HowItWorks
-
-
-#### CLI-specific
-
-Release Notes: http://code.google.com/p/oplop/wiki/CLIReleaseNotes
-
-Instructions: http://code.google.com/p/oplop/wiki/CLIInstructions
