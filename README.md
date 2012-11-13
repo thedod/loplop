@@ -1,6 +1,6 @@
 ## [Loplop](https://duckduckgo.com/?q=!img+loplop) is longer [Oplop](http://code.google.com/p/oplop/)
 
-This is a variation on Oplop, covering the following implementation
+This is a variation on Oplop, covering the following implementations:
 * CLI (Python)
 * Android (PY4A)
 * Javascript (contributed by [israellevin](https://github.com/israellevin))
