@@ -1,3 +1,5 @@
+#### See [related post](https://dubiousdod.org/go/PasswordGenerators) for [some] vulnerability analysis. Peer review is welcome and needed.
+
 ## [Loplop](https://duckduckgo.com/?q=!img+loplop) is longer [Oplop](http://code.google.com/p/oplop/)
 
 This is a variation on Oplop, covering the following implementations:
