@@ -16,6 +16,12 @@ except ImportError:
 
 from __init__ import create
 from getpass import getpass
+try:
+    from pysectools.pinentry import Pinentry
+    def pinentry(prompt):
+       return Pinentry().ask(prompt, 'Loplop') 
+except ImportError:
+    pinentry=getpass
 import subprocess
 import sys
 
@@ -33,7 +39,7 @@ def get_account_name():
 
 
 def get_master_password(verifying=False):
-    return getpass('Master password {}(not echoed) ... '.format(
+    return pinentry('Master password {}(not echoed) ... '.format(
                                                     ['', 'again '][verifying]))
 
 
