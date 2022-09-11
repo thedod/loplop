@@ -31,7 +31,7 @@ def create(label, master):
     len_ = int(len_ or _legacy_length)
     encoded_label = label_.encode("utf-8")
     encoded_master = master.encode("utf-8")
-    hash_ = _raw_hash(encoded_label, encoded_master).replace('=','').decode("ascii")
+    hash_ = _raw_hash(encoded_label, encoded_master).decode("ascii").replace('=','')
     found = re.search(r"\d+", hash_)
     if not found:
         hash_ = '1' + hash_
